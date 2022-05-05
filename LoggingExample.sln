@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorApp", "TestBlazorApp\TestBlazorApp.csproj", "{391BC580-9764-444C-B1BC-826576A251B3}"
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLoggingAndExceptionHandling.Server", "ExampleLoggingAndExceptionHandling\Server\ExampleLoggingAndExceptionHandling.Server.csproj", "{B7030579-33BB-4F8B-BAEA-E14D8E8950E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLoggingAndExceptionHandling.Client", "ExampleLoggingAndExceptionHandling\Client\ExampleLoggingAndExceptionHandling.Client.csproj", "{B8A41076-28CA-4283-BE25-67C61353BAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLoggingAndExceptionHandling.Shared", "ExampleLoggingAndExceptionHandling\Shared\ExampleLoggingAndExceptionHandling.Shared.csproj", "{0293C645-E8CD-411D-838B-D0B2D855B83B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +13,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{391BC580-9764-444C-B1BC-826576A251B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{391BC580-9764-444C-B1BC-826576A251B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{391BC580-9764-444C-B1BC-826576A251B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{391BC580-9764-444C-B1BC-826576A251B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7030579-33BB-4F8B-BAEA-E14D8E8950E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7030579-33BB-4F8B-BAEA-E14D8E8950E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7030579-33BB-4F8B-BAEA-E14D8E8950E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7030579-33BB-4F8B-BAEA-E14D8E8950E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A41076-28CA-4283-BE25-67C61353BAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A41076-28CA-4283-BE25-67C61353BAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A41076-28CA-4283-BE25-67C61353BAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A41076-28CA-4283-BE25-67C61353BAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0293C645-E8CD-411D-838B-D0B2D855B83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0293C645-E8CD-411D-838B-D0B2D855B83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0293C645-E8CD-411D-838B-D0B2D855B83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0293C645-E8CD-411D-838B-D0B2D855B83B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
